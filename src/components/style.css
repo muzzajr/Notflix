@@ -1,0 +1,72 @@
+#backgroundBlur {
+    mask-image: linear-gradient(rgba(0, 0, 0, 1) 40%, transparent);
+  }
+
+#billboardLogo{
+  min-height: 45rem;
+  max-height: 60rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+#playArrow {
+  width: clamp(1rem, 2vw, 3.5rem);
+  height: clamp(1rem, 2vw, 3.5rem);
+}
+
+#volIcon {
+  width: clamp(1rem, 1.3vw, 4rem);
+  height: clamp(1rem, 1.3vw, 4rem);
+}
+
+#cardIcons {
+  width: clamp(1rem, 1.3vw, 4rem);
+  height: clamp(1rem, 1.3vw, 4rem);
+  font-weight: 800;
+}
+
+.card-icon-ring {
+  width: clamp(1rem, 3vw, 2rem);
+  height: clamp(1rem, 3vw, 2rem);
+
+}
+
+#PgIcon {
+  width: clamp(1.6rem, 2vw, 2.5rem);
+  height: clamp(1.6rem, 2vw, 2.5rem);
+}
+
+.box-height{
+  padding-block: clamp(0.1rem, 3vw, 0.4rem);
+  padding-left: clamp(0.2rem, 3vw, 0.5rem);
+  padding-right: clamp(0.6rem, 3vw, 1.5rem);
+}
+
+.long-box-height{
+  padding-block: clamp(0.1rem, 3vw, 0.4rem);
+  padding-left: clamp(0.2rem, 3vw, 0.5rem);
+  padding-right: clamp(0.6rem, 3vw, 1.5rem);
+}
+
+.info-padding {
+  padding-left: clamp(0.2rem, 3vw, 0.8rem);
+}
+
+.title-padding {
+  padding-top: clamp(15rem, 3vw, 20rem);
+}
+
+.button-area-padding {
+  padding-top: clamp(1rem, 8vw, 2rem);
+}
+
+.description-text {
+  font-size: clamp(0.8rem, 1.5vw, 1.8rem);
+  margin-top: clamp(1.8rem, 1.5vw, 3rem);
+}
+
+.volume-ring {
+  width: clamp(1.7rem, 3vw, 3.6rem);
+  height: clamp(1.7rem, 3vw, 3.6rem);
+
+}
